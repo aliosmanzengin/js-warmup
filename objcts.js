@@ -27,4 +27,9 @@ console.log(person['fName'])//John
 person.fName='Mike'
 person.lName='Lloyd'
 person['age']=11
+person['isEmployed']=false
+console.log(person);//{fName: 'Mike', lName: 'Lloyd', age: 11, isEmployed: true}
+
+
+
 
