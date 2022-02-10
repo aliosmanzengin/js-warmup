@@ -37,4 +37,4 @@ months.slice(2) //--> similar to substring logic
 console.log(months); //!!! months will remain unchanged
 //instead of splice, slice is not changing the array
 console.log(months.slice(2));//['March', 'April', 'May']
-console.log(months.slice(-2))
+console.log(months.slice(-2))//['April', 'May']
